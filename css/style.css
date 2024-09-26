@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    background-color: #ffe6ff;
+    max-width: 1000px;
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+    color:palevioletred;
+    font-size: 45px;
+    background-color:white;
+}
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-around;
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding:10px;
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+
+    font-size: 15pt;
+    padding: 10px;
+    color:darkmagenta;
+}
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+.intro{
+    background-color: plum;
+    text-align: center;
+}
+
+.kaya{
+    text-align: center;
+    padding: 15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.josefina{
+    text-align: center;
+    padding:15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+
+.addy{
+    text-align: center;
+    padding: 15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.samantha{
+    text-align: center;
+    padding:15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.rebecca{
+    text-align: center;
+    padding: 15px;
+    flex-basis:30%; 
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.kit{
+    text-align: center;
+    padding:15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.molly{
+    text-align: center;
+    padding: 15px; 
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
+.julie{
+    text-align: center;
+    padding:15px;
+    flex-basis:30%;
+    background-color: lightpink;
+    border: 2px solid #840DFF;
+    margin: 5px;
+}
